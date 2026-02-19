@@ -6,7 +6,7 @@ st.set_page_config(page_title="Lecture Scribe AI", page_icon="🎙️")
 st.title("🎙️ Lecture Scribe & Study-Gen")
 st.write("Record your lecture. Get text, notes, quizzes, and flashcards instantly.")
 
-client = OpenAI(api_key="YOUR_OPENAI_API_KEY")
+client = OpenAI(api_key="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")
 
 # --- Recording & Upload ---
 # audio_input allows live recording or file upload in one widget
